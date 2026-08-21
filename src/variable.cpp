@@ -32,7 +32,7 @@
 
 #include "logging.h"
 #include "equation.h"
-#include "components/microstrip/substrate.h"
+#include "transmissionlines/misc/substrate.h"
 #include "analysis.h"
 #include "variable.h"
 

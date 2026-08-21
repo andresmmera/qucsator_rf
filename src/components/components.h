@@ -115,30 +115,7 @@
 #include "devices/triac.h"
 #include "devices/tunneldiode.h"
 
-#include "microstrip/substrate.h"
-
-#include "microstrip/msline.h"
-#include "microstrip/mscorner.h"
-#include "microstrip/msmbend.h"
-#include "microstrip/msstep.h"
-#include "microstrip/msopen.h"
-#include "microstrip/msgap.h"
-#include "microstrip/mscoupled.h"
-#include "microstrip/mslange.h"
-#include "microstrip/mstee.h"
-#include "microstrip/mscross.h"
-#include "microstrip/msvia.h"
-#include "microstrip/msrstub.h"
-#include "microstrip/bondwire.h"
-#include "microstrip/spiralinductor.h"
-#include "microstrip/circularloop.h"
-
-
-#include "microstrip/cpwline.h"
-#include "microstrip/cpwopen.h"
-#include "microstrip/cpwshort.h"
-#include "microstrip/cpwgap.h"
-#include "microstrip/cpwstep.h"
+#include "transmissionlines/transmissionlines.h"
 
 #include "digital/digital.h"
 #include "digital/inverter.h"

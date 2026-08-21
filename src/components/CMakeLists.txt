@@ -77,6 +77,7 @@ set(COMPONENTS_SRC
 set(HEADERS component.h component_id.h components.h)
 
 add_library(coreComponents OBJECT ${COMPONENTS_SRC})
+add_subdirectory(transmissionlines)
 
 if(WITH_ADMS)
 install(FILES ${HEADERS} DESTINATION include/qucs-core)

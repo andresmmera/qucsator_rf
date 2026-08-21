@@ -27,7 +27,7 @@
 
 #include <string>
 
-#include "components/microstrip/substrate.h"
+#include "components/transmissionlines/misc/substrate.h"
 #include "analysis.h"
 #include "equation.h"
 

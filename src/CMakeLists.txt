@@ -274,7 +274,7 @@ add_subdirectory(interface)
 add_subdirectory(components)
 add_subdirectory(components/digital)
 add_subdirectory(components/devices)
-add_subdirectory(components/microstrip)
+
 if (WITH_ADMS)
 add_subdirectory(components/verilog)
 endif()
