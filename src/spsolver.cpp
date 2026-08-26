@@ -770,10 +770,7 @@ void spsolver::dropCross (circuit * c) {
 void spsolver::insertOpen (node * n) {
   if (strcmp (n->getName (), "gnd") &&
       subnet->findConnectedNode (n) == NULL) {
-    #ifdef open
-    #undef open
-    #endif
-    circuit * result = new open ();
+    circuit * result = new qucs::open ();
     subnet->insertedCircuit (result);
     result->setNode (0, n->getName ());
     subnet->insertCircuit (result);
